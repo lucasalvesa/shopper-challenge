@@ -50,11 +50,11 @@ MYSQL_DATABASE='shopper_database'
 
 ## Comentários
 
-- Atualmente, o backend deste projeto está funcionando conforme o esperado e aceitando solicitações do Postman com sucesso. No entanto, estou ciente de que encontro adversidades ao enviar o arquivo CSV por meio da interface do React.
+- Atualmente, o backend deste projeto está funcionando conforme o esperado e aceitando solicitações do Postman com sucesso. No entanto, estou ciente de que encontro adversidades ao enviar o arquivo CSV por meio da interface do React. 
 
-- Gostaría de esclarecer que isso não reflete uma limitação técnica ou incompetência na execução da tarefa. Estive trabalhando ativamente para resolver essa questão e garantir que os aspectos do projeto estivessem funcionando perfeitamente. Por uma limitação de ambiente eu não consegui utilizar o `axios` para fazer as requisições. Acredito que com ele poderia tentar de forma diferente.
+- Fiz uma opção por não escolher vários pacotes React que poderiam ter (de certa forma) encurtado alguns processos, justamente por considerar que no ambiente de produção não é possível recorrer a quaisquer bibliotecas externas sempre que se assim o desejar.
 
-- Fiz uma opção por não escolher vários pacotes React que poderiam ter (de certa forma) encurtado alguns processos, justamente pela minha experiência com ambiente de produção onde sabe-se que não é possível recorrer a quaisquer bibliotecas externas sempre que se quer.
+- Credito à uma limitação de ambiente, a impossibilidade de entregar o projeto em TypeScript. Sempre que insisti em atualizar meu `react-scripts` eu recebia o retorno de que `react-scripts is up to date`. Porém, ao executar o comando `npx create-react-app --template typescript` ele me dizia que `the react-scripts version you're using is not compatible with the --template option.` E ao invés de usar `npx`, passei para o `yarn` e consegui fazer parte do desafio com TypeScript. Porém o projeto parou de rodar no meio do caminho.
 
-- Credito também à uma limitação de ambiente, a impossibilidade de entregar o projeto em TypeScript. Sempre que insisti em atualizar meu `react-scripts` eu recebia o retorno de que `react-scripts is up to date`. Porém, aoe xecutar o comando `npx create-react-app --template typescript` ele me dizia que `the react-scripts version you're using is not compatible with the --template option.` E ao invés de usar `npx`, passei para o `yarn` e consegui fazer parte dele com TypeScript. Porém o projeto parou de rodar no meio do caminho.
+- No mais adoraria ter a oportunidade conversar mais e me apresentar melhor para dizer o quão empolgado estou para fazer parte da equipe! 
 
