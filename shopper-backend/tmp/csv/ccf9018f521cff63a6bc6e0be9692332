@@ -1,0 +1,7 @@
+libs que instalei no projeto da pasta backend:
+npm install express multer mysql2 dotenv express fast-csv fs
+
+
+
+V2
+npm install express multer mysql2 dotenv fast-csv fs typescript ts-node @types/node
