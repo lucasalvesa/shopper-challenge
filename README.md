@@ -3,7 +3,7 @@
 Este é um projeto **Node.js + React** que permite aos usuários fazer o upload de um arquivo CSV, validar seus conteúdos e atualizar informações no banco de dados **MySQL**.
 
 <div align="center">
-  <video src="https://github.com/lucasalvesa/shopper-challenge/assets/85463742/a8e76b40-fc1e-48b9-8880-22efabb0d247" width="200" />
+  <video src="https://github.com/lucasalvesa/shopper-challenge/assets/85463742/a6a33b1e-f9c5-4ec3-a99b-38505cd5430c" />
 </div>
 
 ## Funcionalidades Principais
@@ -46,7 +46,7 @@ MYSQL_DATABASE='shopper_database'
 ### Front-end
 1. Navegue até a pasta do projeto: `cd shopper-frontend`.
 3. Instale as dependências: `npm install` (e por segurança `yarn install`).
-4. Abra outro terminal ainda dentro da pasta `shopper-frontend` e execute `npm start` para iniciar o o React.
+4. Abra outro terminal ainda dentro da pasta `shopper-frontend` e execute `npm start` para iniciar o React.
 5. Este projoeto está configurado para rodar na porta `3000`.
 
 ## Comentários
