@@ -3,7 +3,7 @@
 Este é um projeto **Node.js + React** que permite aos usuários fazer o upload de um arquivo CSV, validar seus conteúdos e atualizar informações no banco de dados **MySQL**.
 
 <div align="center">
-  <video src="https://github.com/lucasalvesa/shopper-challenge/assets/85463742/a6a33b1e-f9c5-4ec3-a99b-38505cd5430c" />
+  <video src="https://github.com/lucasalvesa/shopper-challenge/assets/85463742/a2b74258-8b0a-416b-9ddc-8a81b3106315" />
 </div>
 
 ## Funcionalidades Principais
