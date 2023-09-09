@@ -41,13 +41,13 @@ MYSQL_DATABASE='shopper_database'
 ```
 4. Caso ainda não tenha o banco de dados pronto, pode acessar o arquivo `schema.sql`, copiar seu conteúdo e executá-lo de depois de rodar o comando `mysql` no seu terminal.
 5. Abra outro terminal ainda dentro da pasta `shopper-backend` e execute `node app.js` para iniciar o servidor.
-6. Este projoeto está configurado para rodar na porta `8080`.
+6. Este projeto está configurado para rodar na porta `8080`.
 
 ### Front-end
 1. Navegue até a pasta do projeto: `cd shopper-frontend`.
 3. Instale as dependências: `npm install` (e por segurança `yarn install`).
 4. Abra outro terminal ainda dentro da pasta `shopper-frontend` e execute `npm start` para iniciar o React.
-5. Este projoeto está configurado para rodar na porta `3000`.
+5. Este projeto está configurado para rodar na porta `3000`.
 
 ## Comentários
 
