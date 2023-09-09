@@ -27,34 +27,37 @@ No front-end foi adicionado o pacote:
 
 ## Como Iniciar o Projeto :computer:
 
+Clone este repositório: `https://github.com/lucasalvesa/shopper-challenge`
+
 ### Back-end
-1. Clone este repositório: `https://github.com/lucasalvesa/shopper-challenge`
-2. Navegue até a pasta do projeto: `cd shopper-backend`
-3. Instale as dependências: `npm install`
-4. Dentro deste diretório (shopper-backend) crie um arquivo `.env` na raíz. Agora configure as variáveis de ambiente no arquivo com suas credenciais do banco de dados. Exemplo:
+1. Navegue até a pasta do projeto: `cd shopper-backend`.
+2. Instale as dependências: `npm install`.
+3. Dentro deste diretório (shopper-backend) crie um arquivo `.env` na raíz. Agora configure as variáveis de ambiente no arquivo com suas credenciais do banco de dados. Exemplo:
 ```env
 MYSQL_HOST='127.0.0.1'
 MYSQL_USER='root'
 MYSQL_PASSWORD='password'
 MYSQL_DATABASE='shopper_database'
 ```
-5. Caso ainda não tenha o banco de dados pronto, pode acessar o arquivo `schema.sql`, copiar seu conteúdo e executá-lo de depois de rodar o comando `mysql` no seu terminal.
-6. Abra outro terminal ainda dentro da pasta `shopper-backend` e execute `node app.js` para iniciar o servidor.
-7. Este projoeto está configurado para rodar na porta `8080`.
+4. Caso ainda não tenha o banco de dados pronto, pode acessar o arquivo `schema.sql`, copiar seu conteúdo e executá-lo de depois de rodar o comando `mysql` no seu terminal.
+5. Abra outro terminal ainda dentro da pasta `shopper-backend` e execute `node app.js` para iniciar o servidor.
+6. Este projoeto está configurado para rodar na porta `8080`.
 
 ### Front-end
-1. Navegue até a pasta do projeto: `cd shopper-frontend`
+1. Navegue até a pasta do projeto: `cd shopper-frontend`.
 3. Instale as dependências: `npm install` (e por segurança `yarn install`).
 4. Abra outro terminal ainda dentro da pasta `shopper-frontend` e execute `npm start` para iniciar o o React.
 5. Este projoeto está configurado para rodar na porta `3000`.
 
 ## Comentários
 
-- Atualmente, o backend deste projeto está funcionando conforme o esperado e aceitando solicitações do Postman com sucesso. No entanto, estou ciente de que encontro adversidades ao enviar o arquivo CSV por meio da interface do React. 
+- `node -v 18.17.1`, `npm -v 9.6.7`, `yarn -v 1.22.19`, `react 18.2.0 stable release`
 
-- Fiz uma opção por não escolher vários pacotes React que poderiam ter (de certa forma) encurtado alguns processos, justamente por considerar que no ambiente de produção não é possível recorrer a quaisquer bibliotecas externas sempre que se assim o desejar.
+- Neste momento da entrega, estou ciente de que encontro adversidades no backend ao fazer envio do arquivo CSV. 
 
-- Credito à uma limitação de ambiente, a impossibilidade de entregar o projeto em TypeScript. Sempre que insisti em atualizar meu `react-scripts` eu recebia o retorno de que `react-scripts is up to date`. Porém, ao executar o comando `npx create-react-app --template typescript` ele me dizia que `the react-scripts version you're using is not compatible with the --template option.` E ao invés de usar `npx`, passei para o `yarn` e consegui fazer parte do desafio com TypeScript. Porém o projeto parou de rodar no meio do caminho.
+- Optei por não instalar várias bibliotecas React que poderiam ter (de certa forma) encurtado alguns processos, justamente por considerar que no ambiente de produção não é possível recorrer a quaisquer pacotes externos sempre que assim o desejar.
 
-- No mais adoraria ter a oportunidade conversar mais e me apresentar melhor para dizer o quão empolgado estou para fazer parte da equipe! 
+- Credito à uma limitação de ambiente, a impossibilidade de entregar o projeto em TypeScript. Sempre que insisti em atualizar meu `react-scripts` eu recebia o retorno de que `react-scripts is up to date`. Porém, ao executar o comando `npx create-react-app --template typescript` para adotar o template TypeScript, o terminal retornava que `the react-scripts version you're using is not compatible with the --template option.` Tentei ao invés de usar `npx` usar `yarn` para fazer `create-react-app` e deu certo o TypeScript, porém apenas até certo ponto. O projeto parou de rodar no meio do caminho e fiquei sem saber se era o Ubuntu, minha máquina ou outra variável.  
+
+- Dito isso, adoraria a oportunidade de nos conhecermos melhor e compartilhar mais sobre minha empolgação em fazer parte da equipe! :star2: :wink:
 
